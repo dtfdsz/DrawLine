@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello"
+        />
+
+    <com.android.DrawLineSample.TestView
+        android:id="@+id/testviewview"
+        android:layout_width="fill_parent"
+        android:layout_height="530dp"/>
+    <com.android.DrawLineSample.SelectActivity
+        android:id="@+id/strock_color_select"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <LinearLayout
+        android:id="@+id/ll_btn_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <!--android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        -->
+        <Button
+            android:id="@+id/colors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="23dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_color"
+            android:text="color" />
+        <Button
+            android:id="@+id/brush"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="23dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_color"
+            android:text="width" />
+        <Button
+            android:id="@+id/eraser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="23dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_color"
+            android:text="eraser" />
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="23dp"
+            android:background="@drawable/background_color"
+            android:layout_weight="1"
+            android:text="clear" />
+    </LinearLayout>
+
+</LinearLayout>

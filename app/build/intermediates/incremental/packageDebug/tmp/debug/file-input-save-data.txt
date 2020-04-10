@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Thu Apr 02 11:16:22 CST 2020
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\23910\\Desktop\\lab1\\lab1\\DrawLineSample\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+0.path=classes.dex
+0.set=DEX
+count=1
